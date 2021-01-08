@@ -2,11 +2,10 @@
 Change the extensions of a large amount of files at once while preserving the original name, with a simple gui.  
 
 # Intructions for Windows
-1. Have Python installed from https://python.org.
-2. Open the src folder in your favorite IDE
-3. Put all the files you want to change in src/files to change
-4. Run the program and input the extension to change to
-5. Press the convert button
+1. Download "final.zip" from the releases tab
+2. Extract
+3. Run "main.exe"
+4. Follow on-screen intructions from there
 
 # Important Notice
 If you file does not have an extension e.g. "example.", "example" it will rename the file and not add an extension.  
