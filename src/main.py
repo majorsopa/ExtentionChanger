@@ -3,7 +3,7 @@ import tkinter as tk, os
 dirname = os.path.dirname(__file__)
 path = os.path.join(dirname, 'files to change')
 
-window = tk.Tk(className = 'extension changer')
+window = tk.Tk(className = 'Extension Changer')
 window.geometry('800x250')
 
 textBoxFrame = tk.Frame(master = window, width = 30, height = 10)
