@@ -7,9 +7,9 @@ window = tk.Tk(className = 'extension changer')
 window.geometry('800x250')
 
 textBoxFrame = tk.Frame(master = window, width = 30, height = 10)
-extentionToChangeTo = tk.Entry(width = 30)
+extensionToChangeTo = tk.Entry(width = 30)
 
-def changeExtention(endingExtention):
+def changeExtension(endingExtension):
 
   f = []
 
@@ -28,7 +28,7 @@ def changeExtention(endingExtention):
       lengthToRemove = len(r)
       file = file[:-lengthToRemove]
 
-      file += endingExtention
+      file += endingExtension
       os.rename(path + '/' + filenames[j] , path + '/' + file)
 
       j += 1
@@ -36,7 +36,7 @@ def changeExtention(endingExtention):
     break
 
 def handle_button_press(event): 
-  changeExtention(extentionToChangeTo.get())
+  changeExtension(extensionToChangeTo.get())
 
 buttonFrame = tk.Frame(master = window, width = 20, height = 10)
 
@@ -53,6 +53,6 @@ textBoxFrame.pack(padx = 1, pady = 4)
 
 instructions.pack()
 convertButton.pack()
-extentionToChangeTo.pack()
+extensionToChangeTo.pack()
 
 window.mainloop()
