@@ -9,3 +9,4 @@ Change the extensions of a large amount of files at once while preserving the or
 
 # Important Notice
 If you file does not have an extension e.g. "example.", "example" it will rename the file and not add an extension.  
+This does not actually change the file type, but instead changes the extension.  
